@@ -660,7 +660,7 @@ LANGUAGE_CODE = "en-us"
 
 LANGUAGES = [
     ("en-us", _("English (US)")),  # needs to be first to act as fallback language
-    ("ar-ar", _("Arabic")),
+    """ ("ar-ar", _("Arabic")),
     ("af-za", _("Afrikaans")),
     ("be-by", _("Belarusian")),
     ("bg-bg", _("Bulgarian")),
@@ -668,21 +668,21 @@ LANGUAGES = [
     ("cs-cz", _("Czech")),
     ("da-dk", _("Danish")),
     ("de-de", _("German")),
-    ("el-gr", _("Greek")),
+    ("el-gr", _("Greek")), """
     ("en-gb", _("English (GB)")),
     ("es-es", _("Spanish")),
     ("fi-fi", _("Finnish")),
     ("fr-fr", _("French")),
-    ("hu-hu", _("Hungarian")),
+    """ ("hu-hu", _("Hungarian")),
     ("it-it", _("Italian")),
     ("ja-jp", _("Japanese")),
     ("lb-lu", _("Luxembourgish")),
     ("no-no", _("Norwegian")),
     ("nl-nl", _("Dutch")),
-    ("pl-pl", _("Polish")),
+    ("pl-pl", _("Polish")), """
     ("pt-br", _("Portuguese (Brazil)")),
     ("pt-pt", _("Portuguese")),
-    ("ro-ro", _("Romanian")),
+    """ ("ro-ro", _("Romanian")),
     ("ru-ru", _("Russian")),
     ("sk-sk", _("Slovak")),
     ("sl-si", _("Slovenian")),
@@ -690,7 +690,7 @@ LANGUAGES = [
     ("sv-se", _("Swedish")),
     ("tr-tr", _("Turkish")),
     ("uk-ua", _("Ukrainian")),
-    ("zh-cn", _("Chinese Simplified")),
+    ("zh-cn", _("Chinese Simplified")), """
 ]
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, "locale")]
