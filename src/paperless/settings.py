@@ -672,31 +672,6 @@ LANGUAGES = [
     ("pt-pt", _("Portuguese")),
 ]
 
-""" ("ar-ar", _("Arabic")),
-    ("af-za", _("Afrikaans")),
-    ("be-by", _("Belarusian")),
-    ("bg-bg", _("Bulgarian")),
-    ("ca-es", _("Catalan")),
-    ("cs-cz", _("Czech")),
-    ("da-dk", _("Danish")),
-    ("de-de", _("German")),
-    ("el-gr", _("Greek")), """
-""" ("hu-hu", _("Hungarian")),
-    ("it-it", _("Italian")),
-    ("ja-jp", _("Japanese")),
-    ("lb-lu", _("Luxembourgish")),
-    ("no-no", _("Norwegian")),
-    ("nl-nl", _("Dutch")),
-    ("pl-pl", _("Polish")), """
-""" ("ro-ro", _("Romanian")),
-    ("ru-ru", _("Russian")),
-    ("sk-sk", _("Slovak")),
-    ("sl-si", _("Slovenian")),
-    ("sr-cs", _("Serbian")),
-    ("sv-se", _("Swedish")),
-    ("tr-tr", _("Turkish")),
-    ("uk-ua", _("Ukrainian")),
-    ("zh-cn", _("Chinese Simplified")), """
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, "locale")]
 
